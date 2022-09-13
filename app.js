@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 api_key: "GWtfzhKouT6QhD96FNN3HpGhgtnSXQ9O"
             }
         }
-        let res = await axios.get("http://api.giphy.com/v1/gifs/search", paramToPass);
+        let res = await axios.get("https://api.giphy.com/v1/gifs/search", paramToPass);
         appendGif(res);
     });
 
