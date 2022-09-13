@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.querySelector("#searchbtn").addEventListener("click", async function (e) {
         e.preventDefault();
-        console.log(e);
         let termToSearch = document.querySelector("#search").value;
         let paramToPass = {
             params: {
@@ -15,8 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function appendGif(res) {
-        console.log(res.data.length);
-
         let randGifNum = Math.round(Math.random() * res.data.data.length);
         let url = res.data.data[randGifNum].images.original.url
         let gifarea = document.querySelector("#gifarea");
