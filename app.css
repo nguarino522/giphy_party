@@ -1,0 +1,18 @@
+#title {
+    background-color: rgb(15, 143, 121);
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    background-color: rgb(15, 143, 121);
+}
+
+#headtitle { 
+    background-color: rgb(15, 96, 143);
+}
